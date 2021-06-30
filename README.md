@@ -9,3 +9,6 @@ Relatively new toolchain for PIC32 MCUs
 
 ## Dowloads
 See the releases section.
+
+## Notes
+Linker scripts are NOT provided.
