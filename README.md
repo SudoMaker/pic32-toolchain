@@ -28,5 +28,7 @@ Build options: `../newlib-4.1.0/configure --target mipsel-elf --prefix=/build/pi
 ## Dowloads
 See the releases section.
 
+Currently only supports Linux x86_64.
+
 ## Notes
 You need external crt0.S and linker scripts for this thing to work. See [PIC32_CMake](https://github.com/SudoMaker/PIC32_CMake) for an example.
