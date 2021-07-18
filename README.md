@@ -1,5 +1,5 @@
 # pic32-toolchain
-Relatively new toolchain for PIC32 MCUs
+Relatively new toolchain for PIC32 MCUs.
 
 ## Components
 #### GCC
@@ -22,8 +22,11 @@ Version: 4.1.0
 
 Build options: `../newlib-4.1.0/configure --target mipsel-elf --prefix=/build/pic32-toolchain/out CFLAGS='-O2' CXXFLAGS='-O2'`
 
+### pic32m-bin2hex
+**This is a non-free component made by Microchip.**
+
 ## Dowloads
 See the releases section.
 
 ## Notes
-Linker scripts are NOT provided.
+You need external crt0.S and linker scripts for this thing to work. See [PIC32_CMake](https://github.com/SudoMaker/PIC32_CMake) for an example.
